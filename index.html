@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href="style.css">
+    <title>Recipe Finder</title>
+</head>
+<body>
+    <div class="homepage">
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="images/DishInsight4.png" alt="logo"></a>
+        </div>
+        <nav class="navigationbar">
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>    
+            <ul class="navigation-links">
+                <li><a href="1-index.html">OUR STORY</a></li>
+                <i class="fas fa-search" alt="searchlogo"></i>
+                <li><a href="2-index.html">LOGIN</a></li>
+                <li class="signup"><a href="3-index.html">SIGNUP</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="home">
+            <div class="homepage-wrapper">
+            <div>
+            <h1>Find Your Next Favourite Recipe!</h1>
+            <p>Thousands of food recipes to choose from. Start your cooking adventure now!</p>
+            </div>
+            <div class="search-box">
+                <input type="text" class="search-content" placeholder="Search recipe by ingredient" id="search-input">
+                <button type="submit" class="search-btn" id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            </div>
+        </section>
+        
+        <section class="recipe-results">
+            <div>
+                <h3 class="results-title">Welcome To Amazing Recipes - Let's Cook</h3>
+                <div id="meal"></div>
+            </div>
+        
+        <div class="recipe-details">
+            <button type="button" class="recipe-close-button" id="recipe-close-btn"><i class="fas fa-times"></i></button>
+            <div class="recipe-details-content"></div>
+        </div>
+        </section>
+    </main> 
+    </div>
+    
+    <footer>
+        <section class="footer-container">
+            <div class="footer-top">
+                <div class="footer-logo">
+                    <a href="index.html"><img src="images/DishInsight4.png" alt="logo"></a>
+                </div>
+                <div class="social-icons">
+                    <ul class="footer-list">
+                    <li><a href="instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="x.com"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href="youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+                </div>
+            </div>
+            <p>&copy;2024 DishInsight. All rights reserved.</p>
+        </section>
+    </footer>
+
+<script src="script.js"></script>    
+</body>
+</html>
